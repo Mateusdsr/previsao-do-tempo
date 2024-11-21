@@ -9,7 +9,7 @@ document.getElementById('buscar').addEventListener('click', () => {
 });
 
 function buscarPrevisao(cidade) {
-    const apiKey = '8765381cc06ad68c265342ea8d74ec88'; // Substitua pela sua chave da API
+    const apiKey = '8765381cc06ad68c265342ea8d74ec88';
     const url = `https://api.openweathermap.org/data/2.5/weather?q=${cidade}&lang=pt_br&units=metric&appid=${apiKey}`;
 
     fetch(url)
